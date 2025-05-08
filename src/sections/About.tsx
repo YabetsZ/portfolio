@@ -1,5 +1,6 @@
 import React from "react";
 import SectionTitle from "../components/SectionTitle";
+import yabets_img from "../assets/imgs/yabets.png";
 
 const About = () => {
     return (
@@ -62,7 +63,7 @@ const About = () => {
                         <div className="relative">
                             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-[#0096c7] shadow-xl">
                                 <img
-                                    src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                    src={yabets_img}
                                     alt="Yabets Zekaryas"
                                     className="w-full h-full object-cover object-center"
                                 />

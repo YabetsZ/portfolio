@@ -24,6 +24,7 @@ export default function ContactForm() {
         setStatus("Sending...");
 
         try {
+            emailjs.init(import.meta.env.VITE_EMAILJS_PUBLIC_KEY);
             const token = await recaptchaRef.current?.executeAsync();
             recaptchaRef.current?.reset();
 

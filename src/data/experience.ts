@@ -9,7 +9,7 @@ export interface Experience {
 export const experiences = [
     {
         title: "Backend Developer",
-        company: "Ethronics-IRAS",
+        company: "Intern at Ethronics-IRAS",
         period: "July 1, 2024 - Aug 31, 2024",
         description: [
             "Developed RESTful APIs for a taxation system using Node.js and Express",

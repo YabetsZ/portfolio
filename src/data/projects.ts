@@ -1,6 +1,7 @@
 import coffebeans from "../assets/imgs/coffee-beans.webp";
 import remedy from "../assets/imgs/remedymate.jpg";
 import minigrep from "../assets/imgs/minigrep.webp";
+import tempo from "../assets/imgs/Tempo Rust Logo low.png";
 
 export interface Project {
   title: string;
@@ -23,10 +24,18 @@ const projects = [
   {
     title: "CoffeeChain",
     description:
-      "CoffeeChain is a transparency-focused web app that empowers farmers, businesses, and consumers by revealing the full journey of a coffee product — from farm to cup.",
+      "CoffeeChain is a transparency-focused mobile/web app that empowers farmers, businesses, and consumers by revealing the full journey of a coffee product — from farm to cup.",
     technologies: ["Node.js", "Express"],
     githubUrl: "https://github.com/YabetsZ/coffee-chain",
     imageUrl: coffebeans,
+  },
+  {
+    title: "Tempo: The Code Templating Assistant CLI tool",
+    description:
+      "A CLI app to quickly manage and use code templates for various purposes, especially for CP.",
+    technologies: ["Rust", "Clap"],
+    githubUrl: "https://github.com/YabetsZ/tempo",
+    imageUrl: tempo,
   },
   {
     title: "Minigrep: text searching CLI tool",
@@ -41,7 +50,7 @@ const projects = [
     description: "Solutions for leetcode and codeforces problems",
     technologies: ["Python"],
     githubUrl: "https://github.com/YabetsZ/mineCPcodes",
-    liveUrl: "https://dsa-learning.example.com",
+    // liveUrl: "https://dsa-learning.example.com",
     imageUrl:
       "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },

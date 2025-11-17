@@ -2,6 +2,7 @@ import coffebeans from "../assets/imgs/coffee-beans.webp";
 import remedy from "../assets/imgs/remedymate.jpg";
 import minigrep from "../assets/imgs/minigrep.webp";
 import tempo from "../assets/imgs/Tempo Rust Logo low.png";
+import chapa from "../assets/imgs/Chapa ( Gradient ) Logo.png";
 
 export interface Project {
   title: string;
@@ -53,6 +54,14 @@ const projects = [
     // liveUrl: "https://dsa-learning.example.com",
     imageUrl:
       "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  },
+  {
+    title: "Open source contributions",
+    description: "Contributed to Chapa-rust sdk",
+    technologies: ["Rust"],
+    githubUrl: "https://github.com/Chapa-Et/chapa-rust",
+    // liveUrl: "https://dsa-learning.example.com",
+    imageUrl: chapa,
   },
 ];
 

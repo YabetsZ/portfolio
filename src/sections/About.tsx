@@ -65,7 +65,7 @@ const About = () => {
                 />
               </div>
               <div className="absolute -bottom-6 -right-6 bg-[#023e8a] p-4 rounded-lg shadow-lg">
-                <div className="text-[#caf0f8] font-bold">1+ Years</div>
+                <div className="text-[#caf0f8] font-bold">2+ Years</div>
                 <div className="text-[#90e0ef] text-sm">Coding Experience</div>
               </div>
             </div>

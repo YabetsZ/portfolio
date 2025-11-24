@@ -14,7 +14,7 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1">
             <p className="text-[#ade8f4] mb-6 leading-relaxed">
-              I’m a Computer Science and Engineering graduate from Adama Science
+              I’m a Computer Science and Engineering student in Adama Science
               and Technology University (ASTU), specializing in backend
               development, system architecture, and algorithmic problem-solving.
               I build scalable backend systems using Node.js and Go, and I’m
@@ -33,9 +33,9 @@ const About = () => {
             </div>
 
             <p className="text-[#ade8f4] mb-6 leading-relaxed">
-              When I'm not coding, you can find me solving challenges on
-              LeetCode and CodeForces, improving my problem-solving skills and
-              algorithmic thinking.
+              When I'm not coding, you can find me reading system programming
+              books and solving challenges on LeetCode and CodeForces, improving
+              my problem-solving skills and algorithmic thinking.
             </p>
 
             <div className="flex flex-wrap gap-4">

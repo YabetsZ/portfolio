@@ -8,6 +8,25 @@ export interface Experience {
 
 export const experiences = [
   {
+    title: "Computer Science and Engineering Student",
+    company: "Adama Science and Technology University (ASTU)",
+    period: "Sep, 2021 - Jul, 2026",
+    description: [
+      "Currently studying towards a Bachelor's degree in Computer Science and Engineering",
+      "Taking courses in algorithms, data structures, databases, and software engineering as I continue to learn and grow",
+      "Maintaining a strong academic record while working on personal projects, CGPA: 3.9/4.0",
+    ],
+    technologies: [
+      "Java",
+      "C++",
+      "Data Structures",
+      "Algorithms",
+      "Databases",
+      "Software Engineering",
+      "System Programming",
+    ],
+  },
+  {
     title: "Intern Backend Developer",
     company: "Ethronics-IRAS",
     period: "July 1, 2024 - Aug 31, 2024",
@@ -27,7 +46,7 @@ export const experiences = [
   {
     title: "A2SV Fellow Student",
     company: "African to Silicon Valley (A2SV)",
-    period: "Jan 30, 2025 - Present",
+    period: "Jan, 2025 - Dec, 2025",
     description: [
       "Learning data structures and algorithms",
       "Learning Conducted technical interviews and receiving feedback from mentors",
@@ -38,25 +57,6 @@ export const experiences = [
       "Algorithms",
       "Python",
       "Problem Solving",
-    ],
-  },
-  {
-    title: "Computer Science and Engineering Student",
-    company: "Adama Science and Technology University (ASTU)",
-    period: "2021 - 2025",
-    description: [
-      "Graduated with a Bachelor's degree in Computer Science and Engineering",
-      "Specialized coursework in algorithms, data structures, databases, and software engineering",
-      "Maintained high academic standing while working on personal projects, CGPA: 3.9/4.0",
-    ],
-    technologies: [
-      "Java",
-      "C++",
-      "Data Structures",
-      "Algorithms",
-      "Databases",
-      "Software Engineering",
-      "System Programming",
     ],
   },
   {
